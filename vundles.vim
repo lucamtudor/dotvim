@@ -13,6 +13,7 @@ Bundle "Shougo/neocomplete.git"
 Bundle "godlygeek/tabular"
 Bundle "tomtom/tcomment_vim.git"
 Bundle "vim-scripts/matchit.zip.git"
+Bundle "ervandew/supertab"
 
 " Search
 Bundle "rking/ag.vim"
@@ -22,6 +23,8 @@ Bundle "MarcWeber/vim-addon-mw-utils"
 Bundle "tomtom/tlib_vim"
 Bundle "garbas/vim-snipmate"
 Bundle "honza/vim-snippets"
+Bundle 'Shougo/neosnippet'
+Bundle 'Shougo/neosnippet-snippets'
 
 "File Navigation / Project Management
 Bundle "jistr/vim-nerdtree-tabs.git"
@@ -36,6 +39,7 @@ Bundle "skwp/YankRing.vim"
 Bundle "tomtom/tlib_vim.git"
 Bundle "tpope/vim-surround.git"
 Bundle "tpope/vim-unimpaired"
+Bundle "tpope/vim-fugitive"
 
 " Text objects
 Bundle "austintaylor/vim-indentobject"
@@ -46,4 +50,6 @@ Bundle "skwp/vim-colors-solarized"
 Bundle "itchyny/lightline.vim"
 Bundle "morhetz/gruvbox"
 
+" Python IDe
+Bundle "davidhalter/jedi-vim"
 filetype plugin indent on     " required!
